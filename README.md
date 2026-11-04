@@ -1,0 +1,2 @@
+# yusuf_simsek_YODA_OTONOM_YAZILIM
+ödev
