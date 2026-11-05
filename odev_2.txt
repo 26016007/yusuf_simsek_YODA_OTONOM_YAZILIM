@@ -1,1 +1,6 @@
 bunu deneme amaçlı eklemek için koyuyoru asıl açıklama radme.md de var
+deneme
+deneme
+if
+else
+print
