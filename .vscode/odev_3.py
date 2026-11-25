@@ -48,12 +48,31 @@ while True:
     if sayi==0:
         break
     toplam= toplam+sayi
-    print("girilen sayıların toplamı:",toplam),'''
-sayilar=[3,5,8,61]
+    print("girilen sayıların toplamı:",toplam),
+sayilar=[43,5,8,61]
 sayilar.append(10)
 sayilar.remove(8)
+print(sayilar)
 sayilar.insert(2,7)
+print(sayilar)
 sayilar.pop()   
+print(sayilar)
 sayilar.sort()
-print(sayilar[0])
+print(sayilar)
 print(len(sayilar))
+koordinat=(10,20,15)
+print(koordinat[2])
+meyveler={"hamsi","palamut","hamsi"}
+print(meyveler)
+ogrenci={"isim":"yusuf","yaş":18,"boy":1.67}
+print(ogrenci["isim"])
+ogrenci["boy"]=1.68
+print(ogrenci.keys())
+print(ogrenci.values())'''
+metin= "       Yusuf Şimşek ytü kontrol ve otomasyon mühendisliğinde okuyan bir öğrencidir.  "
+print(metin.strip())
+print(metin.lower())
+print(metin.upper())
+print(metin.replace("Şimşek","ŞİMŞEK"))
+print(metin.split())
+print(len(metin))
