@@ -36,7 +36,8 @@ else:
 if sayi%2==0:
     print("Sayı çifttir.")
 else:
-    print("Sayı tektir.")''
+    print("Sayı tektir.")'''
+
 for i in range(1,11):
     print(i)
 toplam=0
@@ -68,7 +69,8 @@ ogrenci={"isim":"yusuf","yaş":18,"boy":1.67}
 print(ogrenci["isim"])
 ogrenci["boy"]=1.68
 print(ogrenci.keys())
-print(ogrenci.values())'''
+print(ogrenci.values())
+
 metin= "       Yusuf Şimşek ytü kontrol ve otomasyon mühendisliğinde okuyan bir öğrencidir.  "
 print(metin.strip())
 print(metin.lower())
