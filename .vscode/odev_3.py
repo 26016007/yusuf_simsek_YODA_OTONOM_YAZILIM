@@ -36,7 +36,7 @@ else:
 if sayi%2==0:
     print("Sayı çifttir.")
 else:
-    print("Sayı tektir.")'''
+    print("Sayı tektir.")
 
 for i in range(1,11):
     print(i)
@@ -70,7 +70,6 @@ print(ogrenci["isim"])
 ogrenci["boy"]=1.68
 print(ogrenci.keys())
 print(ogrenci.values())
-
 metin= "       Yusuf Şimşek ytü kontrol ve otomasyon mühendisliğinde okuyan bir öğrencidir.  "
 print(metin.strip())
 print(metin.lower())
@@ -78,3 +77,36 @@ print(metin.upper())
 print(metin.replace("Şimşek","ŞİMŞEK"))
 print(metin.split())
 print(len(metin))
+
+def topla(x,y):
+    return x+y
+print(topla(60,1))
+def çarpma(a,b):
+    return a*b
+print(çarpma(5,6))
+a=input("bir sayı giriniz: ")
+b=input("bir sayı daha giriniz: ")
+print(topla(int(a),int(b)))
+def selamla(isim="misafir"):
+    return"merhaba "+isim
+print(selamla(" yusuf"))
+print(selamla())
+with open("yusmek.txt","r", encoding="utf-8") as dosya:
+    print(dosya.read())
+with open("yusmek.txt","a", encoding="utf-8") as dosya:
+    dosya.write("\nYusuf Şimşek")
+with open("yusmek.txt","w", encoding="utf-8") as dosya:
+    dosya.write("Yusuf Şimşek")'''
+import random
+print(random.randint(1,100))
+print(random.choice(["elma","armut","muz"]))
+from datetime import datetime
+simdi=datetime.now()
+print(simdi.year,simdi.month,simdi.day)
+print(simdi.strftime("%d/%m/%Y %H:%M:%S"))
+import json
+veriler={"isim":"yusuf","yas":18,"notlar":[90,85,95]}
+metin=json.dumps(veriler)
+print(metin)
+geri=json.loads(metin)
+print(geri["isim"])
