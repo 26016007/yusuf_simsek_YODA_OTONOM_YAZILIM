@@ -96,7 +96,7 @@ with open("yusmek.txt","r", encoding="utf-8") as dosya:
 with open("yusmek.txt","a", encoding="utf-8") as dosya:
     dosya.write("\nYusuf Şimşek")
 with open("yusmek.txt","w", encoding="utf-8") as dosya:
-    dosya.write("Yusuf Şimşek")'''
+    dosya.write("Yusuf Şimşek")
 import random
 print(random.randint(1,100))
 print(random.choice(["elma","armut","muz"]))
@@ -109,4 +109,13 @@ veriler={"isim":"yusuf","yas":18,"notlar":[90,85,95]}
 metin=json.dumps(veriler)
 print(metin)
 geri=json.loads(metin)
-print(geri["isim"])
+print(geri["isim"])'''
+class ogrenci:
+    def __init__(self,isim,yas,):
+        self.isim=isim
+        self.yas=yas
+    def tanıt(self):
+        return f"merhaba ben {self.isim} ve {self.yas} yaşındayım."
+o=ogrenci("yusuf",18)
+print(o.tanıt())
+print(o.isim)
