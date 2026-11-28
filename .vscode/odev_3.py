@@ -1,4 +1,4 @@
-'''print("O sene Bu sene")
+print("O sene Bu sene")
 İsim= "yusuf şimşek" 
 yaş= 18
 boy= 1.67
@@ -109,7 +109,7 @@ veriler={"isim":"yusuf","yas":18,"notlar":[90,85,95]}
 metin=json.dumps(veriler)
 print(metin)
 geri=json.loads(metin)
-print(geri["isim"])'''
+print(geri["isim"])
 class ogrenci:
     def __init__(self,isim,yas,):
         self.isim=isim
